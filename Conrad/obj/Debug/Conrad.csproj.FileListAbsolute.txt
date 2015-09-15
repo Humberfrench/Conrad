@@ -68,6 +68,5 @@ C:\Users\humberto.almeida\Documents\Visual Studio 2015\Projects\Conrad\Conrad\Co
 C:\Users\humberto.almeida\Documents\Visual Studio 2015\Projects\Conrad\Conrad\Conrad\bin\System.Web.Webpages.Razor.xml
 C:\Users\humberto.almeida\Documents\Visual Studio 2015\Projects\Conrad\Conrad\Conrad\bin\System.Web.Helpers.xml
 C:\Users\humberto.almeida\Documents\Visual Studio 2015\Projects\Conrad\Conrad\Conrad\bin\System.Web.Mvc.xml
-C:\Users\humberto.almeida\Documents\Visual Studio 2015\Projects\Conrad\Conrad\Conrad\obj\Debug\Conrad.csprojResolveAssemblyReference.cache
 C:\Users\humberto.almeida\Documents\Visual Studio 2015\Projects\Conrad\Conrad\Conrad\obj\Debug\Conrad.dll
 C:\Users\humberto.almeida\Documents\Visual Studio 2015\Projects\Conrad\Conrad\Conrad\obj\Debug\Conrad.pdb
