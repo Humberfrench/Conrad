@@ -1,15 +1,44 @@
 ﻿<!DOCTYPE html>
-
-<html>
+<html ng-app="Charlie">
 <head>
-    <meta name="viewport" content="width=device-width" />
-    @System.Web.Optimization.Scripts.Render("~/Content/css");
-    @System.Web.Optimization.Styles.Render("~/bundles/js");
     <title>@ViewBag.Title</title>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    @System.Web.Optimization.Styles.Render("~/Content/css", "~/Content/css/Bootstrap")
+    @System.Web.Optimization.Scripts.Render("~/bundles/jquery", "~/bundles/Bootstrap")
+    <script type="text/javascript">
+        $(document).ready(function ()
+        {
+            $("#divPrincipal").fadeIn('slow');
+        });
+        </script>
+
 </head>
 <body>
     <div>
-        @RenderBody()
+        <div id="divPrincipal" style="display:none;">
+            <div id="header">
+                <img src="@Url.Content("~/imagens/topo.jpg")" alt="header" width="1024" />
+            </div>
+            <div id="divMenu" style="width:1024px;" class="menuContent">
+                <div role="navigation">
+                    <ul class="nav nav-pills">
+                        <li id="lnkHome" style="width:100px;text-align:center;" role="presentation" class="active"><a href="/Home">Home</a></li>
+                        <li id="lnkClientes" style="width:100px;text-align:center;" role="presentation"><a href="/Cliente">Clientes</a></li>
+                        <li id="lnkEnderecos" style="width:100px;text-align:center;" role="presentation"><a href="#">Endereços</a></li>
+                        <li id="lnkLeads" style="width:100px;text-align:center;" role="presentation"><a href="#">Leads</a></li>
+                        <li id="lnkRelatorios" style="width:100px;text-align:center;" role="presentation"><a href="#">Relatórios</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="divCorpoPagina" class="corpoPagina">
+                @RenderBody()
+            </div>
+            <div id="rodape" class="rodape-bar">
+                &nbsp;
+            </div>
+        </div>
+
     </div>
 </body>
 </html>
