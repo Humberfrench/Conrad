@@ -4,8 +4,8 @@
     <title>@ViewBag.Title</title>
     <meta name="viewport" content="width=device-width" />
     <meta charset="utf-8" />
-    @System.Web.Optimization.Styles.Render("~/Content/css", "~/Content/css/Bootstrap")
-    @System.Web.Optimization.Scripts.Render("~/bundles/jquery", "~/bundles/Bootstrap")
+    @System.Web.Optimization.Styles.Render("~/Content/css")
+    @System.Web.Optimization.Scripts.Render("~/bundles/js")
     <script type="text/javascript">
         $(document).ready(function ()
         {
@@ -24,10 +24,10 @@
                 <div role="navigation">
                     <ul class="nav nav-pills">
                         <li id="lnkHome" style="width:100px;text-align:center;" role="presentation" class="active"><a href="/Home">Home</a></li>
-                        <li id="lnkClientes" style="width:100px;text-align:center;" role="presentation"><a href="/Cliente">Clientes</a></li>
-                        <li id="lnkEnderecos" style="width:100px;text-align:center;" role="presentation"><a href="#">Endereços</a></li>
-                        <li id="lnkLeads" style="width:100px;text-align:center;" role="presentation"><a href="#">Leads</a></li>
-                        <li id="lnkRelatorios" style="width:100px;text-align:center;" role="presentation"><a href="#">Relatórios</a></li>
+                        <li id="lnkClientes" style="width:100px;text-align:center;" role="presentation"><a href="/Institucional">Quem Somos</a></li>
+                        <li id="lnkEnderecos" style="width:100px;text-align:center;" role="presentation"><a href="/Servicos">Serviços</a></li>
+                        <li id="lnkLeads" style="width:100px;text-align:center;" role="presentation"><a href="/Clientes">Clientes</a></li>
+                        <li id="lnkRelatorios" style="width:100px;text-align:center;" role="presentation"><a href="/Contato">Contato</a></li>
                     </ul>
                 </div>
             </div>
