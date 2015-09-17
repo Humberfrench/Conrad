@@ -1,5 +1,13 @@
 //programação básica
 
+@mixin get_grids($width, $grid_size)
+{
+    .col-#{$grid_size} 
+    {
+        width: ( $width / $grid_size );
+    }
+}
+
 
 @mixin gradient($color1, $color2, $color_font)
 {

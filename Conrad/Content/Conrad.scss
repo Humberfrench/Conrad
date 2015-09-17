@@ -3,6 +3,8 @@
 @import "reset";  
 
 /* All Site */
+@include get_grids($total_size, 3);
+
 #divPrincipal
 {
     font-family: $fonts;
