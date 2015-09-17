@@ -18,14 +18,14 @@
 	opacity:0.9; 
 	background:#888; 
 	position:absolute; 
-	top: 0px; 
-	left: 0px; 
+	top: $zero_width; 
+	left: $zero_width; 
 	width:100%; 
 	height:200%; 
 	z-index:100;
 }
 
-.corpoPagina 
+.container-master
 {
   width: 1024px;
   //border: 2px solid SlateGray;

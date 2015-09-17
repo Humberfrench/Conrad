@@ -120,10 +120,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="imagens\audit1.jpg" />
-    <Content Include="imagens\banner03.jpg" />
-    <Content Include="imagens\images1.jpg" />
-    <Content Include="imagens\images2.jpg" />
+    <Content Include="imagens\banner.jpg" />
     <Content Include="imagens\images.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
