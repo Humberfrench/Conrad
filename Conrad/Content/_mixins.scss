@@ -4,7 +4,9 @@
 {
     .col-#{$grid_size} 
     {
-        width: ( $width / $grid_size );
+      width: ( $width / $grid_size );
+      @extend %float-styles; 
+      display:table-cell;
     }
 }
 
