@@ -11,7 +11,7 @@ namespace Conrad.Controllers
         // GET: Clientes
         public ActionResult Index()
         {
-            return View();
+            return View(); 
         }
     }
 }

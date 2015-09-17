@@ -17,4 +17,4 @@ namespace Conrad.Models
         public string Celular { get; set; }
         public string Mensagem { get; set; }
     }
-}
+} 
