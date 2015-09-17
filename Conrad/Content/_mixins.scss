@@ -9,6 +9,23 @@
 }
 
 
+
+%float-styles {
+  float: left;
+}
+
+@mixin col-x-list ($width)
+{
+  @for $i from 1 through $columns - 1 {
+  .col-#{$i}-m { 
+      @extend %float-styles; 
+      width: ( $width / $columns );
+      }
+  }
+}
+
+
+
 @mixin gradient($color1, $color2, $color_font)
 {
   color: $color_font; 

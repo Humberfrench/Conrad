@@ -3,7 +3,8 @@
 @import "reset";  
 
 /* All Site */
-@include get_grids($total_size, 3);
+//@include get_grids($total_size, 3);
+@include col-x-list($total_size);
 
 #divPrincipal
 {

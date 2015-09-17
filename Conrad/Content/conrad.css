@@ -1,4 +1,7 @@
-﻿/*style reset*/
+﻿.col-1-m, .col-2-m, .col-3-m, .col-4-m, .col-5-m, .col-6-m, .col-7-m, .col-8-m, .col-9-m, .col-10-m, .col-11-m {
+  float: left; }
+
+/*style reset*/
 /*
 Sass Reset - Converted by Hampton Catlin
 A modification of the original found at...
@@ -47,8 +50,38 @@ table {
   border-spacing: 0; }
 
 /* All Site */
-.col-3 {
-  width: 341.33333px; }
+.col-1-m {
+  width: 85.33333px; }
+
+.col-2-m {
+  width: 85.33333px; }
+
+.col-3-m {
+  width: 85.33333px; }
+
+.col-4-m {
+  width: 85.33333px; }
+
+.col-5-m {
+  width: 85.33333px; }
+
+.col-6-m {
+  width: 85.33333px; }
+
+.col-7-m {
+  width: 85.33333px; }
+
+.col-8-m {
+  width: 85.33333px; }
+
+.col-9-m {
+  width: 85.33333px; }
+
+.col-10-m {
+  width: 85.33333px; }
+
+.col-11-m {
+  width: 85.33333px; }
 
 #divPrincipal {
   font-family: Verdana, Tahona, Arial, Helvetica, sans-serif;
