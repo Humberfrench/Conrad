@@ -3,9 +3,6 @@
 @import "reset";  
 
 /* All Site */
-@include get_grids($total_size_main, 3); 
-@include col-x-list($total_size_main);
-
 #divPrincipal 
 {
     font-family: $fonts;
@@ -30,6 +27,8 @@
 
 .container-master
 {
+  font-family: $fonts;
+  font-size: $default_text_size;
   width: $total_size_main;
   margin:0 auto;
   padding: $zero_width; 
@@ -46,6 +45,11 @@
   display: flexbox;
 
 }
+
+@include get_grids($total_size_main, 3); 
+@include get_grids($total_size_main, 1); 
+@include col-x-list($total_size_main);
+
 
 .Titulo
 {
