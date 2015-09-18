@@ -3,13 +3,13 @@
 @import "reset";  
 
 /* All Site */
-@include get_grids($total_size, 3);
-@include col-x-list($total_size);
+@include get_grids($total_size_main, 3); 
+@include col-x-list($total_size_main);
 
 #divPrincipal 
 {
     font-family: $fonts;
-    width: 1024px;
+    width: $total_size;
     @include border_shadow($zero_width $zero_width $min_size_box, $shadow);
     @include box_sizing;
     padding:  $zero_width;
@@ -30,11 +30,21 @@
 
 .container-master
 {
-  width: 1024px;
-  //border: 2px solid SlateGray;
- // @include border_shadow($zero_width $zero_width $min_size_box, $shadow);
+  width: $total_size_main;
+  margin:0 auto;
+  padding: $zero_width; 
   @include box_sizing;
-  padding:  $zero_width;
+  display: flexbox;
+}
+
+.container-row
+{
+  width: $total_size_main;
+  margin:0 auto;
+  padding: 2px;
+  @include box_sizing;
+  display: flexbox;
+
 }
 
 .Titulo
@@ -42,7 +52,7 @@
   font-family: $fonts;
   font-size: $default_text_title_big;
   font-weight:500;
-  width: 1024px;
+  width: $total_size_main;
   @include center_text(50px,50px);  
   text-align: center;
 }
