@@ -47,9 +47,25 @@
 }
 
 @include get_grids($total_size_main, 3); 
+@include get_grids($total_size_main, 2); 
 @include get_grids($total_size_main, 1); 
 @include col-x-list($total_size_main);
 
+
+.col-form-left 
+{
+  width: 300px;
+  display: table-cell; 
+  @include center_text(30px, 30px)
+}
+
+.col-form-right 
+{
+  width: 600px;
+  display: table-cell; 
+  @include center_text(40px, 40px)
+
+}
 
 .Titulo
 {

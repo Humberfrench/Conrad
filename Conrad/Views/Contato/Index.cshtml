@@ -6,20 +6,26 @@
 }
 
 
-<h2 class="Titulo">Contato</h2>
-<div id="divMain" class="container-master">
-    <!-- Linha-->
-    <div style="display:table-row;">&nbsp;</div>
-    <!-- Linha-->
-    <div style="display:table-row;">
-        <div class="col-1">Content Client Text</div>
+<h2 class="Titulo">Entre em Contato</h2>
+<form id="frmContato" action="">
+    <div id="divMain" class="container-form">
+        <!-- Linha-->
+        <div style="display:table-row;" class="form-group">
+            <div style="width:30px;">&nbsp;</div>
+            <div class="col-form-left" style="text-align:right;"><label class="control-label" id="labelNome" for="txtNome">Nome</label></div>
+            <div style="width:20px;">&nbsp;</div>
+            <div class="col-form-right" style="text-align:left;"><input type="text" value="" class="form-control" size="40" maxlength="100" id="txtNome" placeholder="Nome"/></div>
+            <div style="width:30px;">&nbsp;</div>
+        </div>
+        <!-- Linha-->
+        <div style="display:table-row;" class="form-group">
+            <div style="width:30px;">&nbsp;</div>
+            <div class="col-form-left" style="text-align:right;"><label class="control-label" id="labelNome" for="txtEMail">E-Mail</label></div>
+            <div style="width:20px;">&nbsp;</div>
+            <div class="col-form-right" style="text-align:left;"><input type="email" value="" class="form-control" size="40" maxlength="100" id="txtEMail" placeholder="Email"/></div>
+            <div style="width:30px;">&nbsp;</div>
+        </div>
+        <!-- Linha-->
+        <div style="display:table-row;">&nbsp;</div>
     </div>
-    <!-- Linha-->
-    <div style="display:table-row;">&nbsp;</div>
-    <!-- Linha-->
-    <div style="display:table-row;">
-        <div class="col-1">Content Client Text</div>
-    </div>
-    <!-- Linha-->
-    <div style="display:table-row;">&nbsp;</div>
-</div>
+</form>
