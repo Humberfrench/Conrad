@@ -187,6 +187,13 @@ table {
   vertical-align: middle;
   text-align: center; }
 
+.Texto {
+  font-family: Verdana, Tahona, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  width: 980px;
+  text-align: justify; }
+
 .CellGridTop {
   padding: 2px;
   margin: 0 auto;
@@ -646,3 +653,6 @@ table {
 .notice-bottom {
   height: 22px;
   background: url(../imagens/purrBottom.png) no-repeat left top; }
+
+ul {
+  list-style: square; }

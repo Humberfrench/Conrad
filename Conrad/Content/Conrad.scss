@@ -85,6 +85,14 @@
   @include center_text(50px,50px);  
   text-align: center;
 }
+.Texto
+{
+  font-family: $fonts;
+  font-size: $default_text_size;
+  line-height: $default_text_title_big;
+  width: $total_size_main;
+  text-align: justify;
+}
 .CellGridTop
 {
 	padding: 2px;
@@ -204,7 +212,8 @@
   height: $combo_height;
 }
 
-.linhaTabelaButton {
+.linhaTabelaButton 
+{
    @include center_text(50px,50px);
 } 
 
@@ -212,7 +221,9 @@
 {
   height: 50px;
 }
-.list-box {
+
+.list-box
+ {
   font-family: $fonts_campo;
   background-color: $second_color_white;
   font-size: $default_text_size;
@@ -352,4 +363,6 @@
     height: 22px;
     background: url(../imagens/purrBottom.png) no-repeat left top;
 }
-
+ul {
+    list-style: square ;
+}
