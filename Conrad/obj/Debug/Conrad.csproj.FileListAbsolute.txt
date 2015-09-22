@@ -156,3 +156,4 @@ C:\Users\Humberto\Dropbox\Desenvolvimento\Sistemas\Conrad\Conrad\Conrad\bin\Syst
 C:\Users\Humberto\Dropbox\Desenvolvimento\Sistemas\Conrad\Conrad\Conrad\obj\Debug\Conrad.csprojResolveAssemblyReference.cache
 C:\Users\Humberto\Dropbox\Desenvolvimento\Sistemas\Conrad\Conrad\Conrad\obj\Debug\Conrad.dll
 C:\Users\Humberto\Dropbox\Desenvolvimento\Sistemas\Conrad\Conrad\Conrad\obj\Debug\Conrad.pdb
+C:\Users\humberto.almeida\Documents\Visual Studio 2015\Projects\Conrad\Conrad\Conrad\obj\Debug\Conrad.csprojResolveAssemblyReference.cache
