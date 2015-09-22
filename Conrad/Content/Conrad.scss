@@ -70,6 +70,15 @@
 .Titulo
 {
   font-family: $fonts;
+  font-size: $default_text_size_bigger;
+  font-weight:500;
+  width: $total_size_main;
+  @include center_text(50px,50px);  
+  text-align: center;
+}
+.SubTitulo
+{
+  font-family: $fonts;
   font-size: $default_text_title_big;
   font-weight:500;
   width: $total_size_main;
