@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html ng-app="Charlie">
+<head>
+    <title>@ViewBag.Title</title>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <link href="~/Content/audit.ico" rel="icon" />
+    @System.Web.Optimization.Styles.Render("~/Content/css")
+    @System.Web.Optimization.Scripts.Render("~/bundles/js")
+    <script type="text/javascript">
+        $(document).ready(function ()
+        {
+            $("#divPrincipal").fadeIn('slow');
+        }); 
+        </script>
+
+</head>
+<body>
+    <div>
+        <div id="divPrincipal" style="display:none;">
+            <div id="header">
+                <img src="@Url.Content("~/imagens/banner.jpg")" alt="header" width="1024" />
+            </div>
+            <div id="divMenu" style="width:1024px;" class="menuContent">
+                <div role="navigation">
+                    <ul class="nav nav-pills">
+                        <li id="lnkHome" style="width:150px;text-align:center;" role="presentation" class="active"><a href="/Home">Home</a></li>
+                        <li id="lnkClientes" style="width:150px;text-align:center;" role="presentation"><a href="/Institucional">Quem Somos</a></li>
+                        <li id="lnkEnderecos" style="width:150px;text-align:center;" role="presentation"><a href="/Servicos">Serviços</a></li>
+                        <li id="lnkLeads" style="width:150px;text-align:center;" role="presentation"><a href="/Clientes">Clientes</a></li>
+                        <li id="lnkRelatorios" style="width:150px;text-align:center;" role="presentation"><a href="/Contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="divCorpoPagina" class="corpoPagina">
+                @RenderBody()
+            </div>
+            <div id="rodape" class="rodape-bar">
+                &nbsp;
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

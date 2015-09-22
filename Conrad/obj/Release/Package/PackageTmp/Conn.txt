@@ -1,0 +1,2 @@
+﻿Dim cnnConnection As New SqlConnection("Data Source=.\SQLEXPRESS;AttachDbFilename=" & Application.StartupPath + "\datafiles\" + TextBox1.Text + ".mdf" & ";Integrated Security=True;Database='" & TextBox1.Text & "';Connect Timeout=30")
+    cnnConnection.Open()
