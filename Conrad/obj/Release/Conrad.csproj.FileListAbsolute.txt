@@ -40,3 +40,4 @@ C:\Users\Humberto\Dropbox\Desenvolvimento\Sistemas\Conrad\Conrad\Conrad\bin\Syst
 C:\Users\Humberto\Dropbox\Desenvolvimento\Sistemas\Conrad\Conrad\Conrad\bin\System.Web.Mvc.xml
 C:\Users\Humberto\Dropbox\Desenvolvimento\Sistemas\Conrad\Conrad\Conrad\obj\Release\Conrad.dll
 C:\Users\Humberto\Dropbox\Desenvolvimento\Sistemas\Conrad\Conrad\Conrad\obj\Release\Conrad.pdb
+C:\Users\Humberto\Dropbox\Desenvolvimento\Sistemas\Conrad\Conrad\Conrad\obj\Release\Conrad.csprojResolveAssemblyReference.cache

@@ -13,7 +13,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/22/2015 13:40:16</publishTime>
     </File>
     <File Include="bin/Conrad.dll">
-      <publishTime>09/22/2015 13:46:41</publishTime>
+      <publishTime>09/22/2015 20:43:41</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>09/22/2015 13:40:16</publishTime>
@@ -82,7 +82,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/22/2015 13:40:16</publishTime>
     </File>
     <File Include="bin/Web.config">
-      <publishTime>09/22/2015 13:46:44</publishTime>
+      <publishTime>09/22/2015 20:45:01</publishTime>
     </File>
     <File Include="bin/Web.Debug.config">
       <publishTime>09/22/2015 13:40:14</publishTime>
@@ -118,13 +118,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/22/2015 13:40:14</publishTime>
     </File>
     <File Include="Content/conrad.css">
-      <publishTime>09/22/2015 13:42:12</publishTime>
+      <publishTime>09/22/2015 20:22:04</publishTime>
     </File>
     <File Include="Content/conrad.min.css">
-      <publishTime>09/22/2015 13:42:12</publishTime>
+      <publishTime>09/22/2015 20:22:04</publishTime>
     </File>
     <File Include="Content/Conrad.scss">
-      <publishTime>09/22/2015 13:42:12</publishTime>
+      <publishTime>09/22/2015 20:22:04</publishTime>
     </File>
     <File Include="Content/_mixins.scss">
       <publishTime>09/22/2015 13:40:14</publishTime>
@@ -160,7 +160,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/22/2015 13:40:15</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>09/22/2015 13:40:16</publishTime>
+      <publishTime>09/22/2015 20:42:57</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
       <publishTime>09/22/2015 13:40:14</publishTime>
@@ -181,28 +181,28 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/22/2015 13:40:14</publishTime>
     </File>
     <File Include="Views/Clientes/Index.cshtml">
-      <publishTime>09/22/2015 13:40:14</publishTime>
+      <publishTime>09/22/2015 20:19:17</publishTime>
     </File>
     <File Include="Views/Contato/Index.cshtml">
-      <publishTime>09/22/2015 13:40:14</publishTime>
+      <publishTime>09/22/2015 20:19:06</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
       <publishTime>09/22/2015 13:40:14</publishTime>
     </File>
     <File Include="Views/Institucional/Index.cshtml">
-      <publishTime>09/22/2015 13:42:12</publishTime>
+      <publishTime>09/22/2015 20:19:06</publishTime>
     </File>
     <File Include="Views/Servicos/Index.cshtml">
-      <publishTime>09/22/2015 13:42:12</publishTime>
+      <publishTime>09/22/2015 20:19:06</publishTime>
     </File>
     <File Include="Views/Shared/_ConradLayout.cshtml">
-      <publishTime>09/22/2015 13:42:12</publishTime>
+      <publishTime>09/22/2015 20:57:26</publishTime>
     </File>
     <File Include="Views/web.config">
       <publishTime>09/22/2015 13:40:14</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>09/22/2015 13:46:44</publishTime>
+      <publishTime>09/22/2015 20:57:32</publishTime>
     </File>
   </ItemGroup>
 </Project>

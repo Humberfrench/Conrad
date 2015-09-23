@@ -70,7 +70,7 @@
 .Titulo
 {
   font-family: $fonts;
-  font-size: $default_text_size_bigger;
+  font-size: $default_text_title_big;
   font-weight:500;
   width: $total_size_main;
   @include center_text(50px,50px);  
@@ -79,7 +79,7 @@
 .SubTitulo
 {
   font-family: $fonts;
-  font-size: $default_text_title_big;
+  font-size: $default_text_title_small;
   font-weight:500;
   width: $total_size_main;
   @include center_text(50px,50px);  
@@ -363,6 +363,8 @@
     height: 22px;
     background: url(../imagens/purrBottom.png) no-repeat left top;
 }
-ul {
+ul 
+{
+    margin-left: 50px;
     list-style: square ;
 }

@@ -113,6 +113,7 @@ C:\Users\humberto.almeida\Documents\Visual Studio 2015\Projects\Conrad\Conrad\Co
 C:\Users\humberto.almeida\Documents\Visual Studio 2015\Projects\Conrad\Conrad\Conrad\bin\System.Web.Mvc.xml
 C:\Users\humberto.almeida\Documents\Visual Studio 2015\Projects\Conrad\Conrad\Conrad\obj\Debug\Conrad.dll
 C:\Users\humberto.almeida\Documents\Visual Studio 2015\Projects\Conrad\Conrad\Conrad\obj\Debug\Conrad.pdb
+C:\Users\humberto.almeida\Documents\Visual Studio 2015\Projects\Conrad\Conrad\Conrad\obj\Debug\Conrad.csprojResolveAssemblyReference.cache
 C:\Users\Humberto\Dropbox\Desenvolvimento\Sistemas\Conrad\Conrad\Conrad\bin\roslyn\csc.exe
 C:\Users\Humberto\Dropbox\Desenvolvimento\Sistemas\Conrad\Conrad\Conrad\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 C:\Users\Humberto\Dropbox\Desenvolvimento\Sistemas\Conrad\Conrad\Conrad\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -153,7 +154,5 @@ C:\Users\Humberto\Dropbox\Desenvolvimento\Sistemas\Conrad\Conrad\Conrad\bin\Syst
 C:\Users\Humberto\Dropbox\Desenvolvimento\Sistemas\Conrad\Conrad\Conrad\bin\System.Web.Webpages.Razor.xml
 C:\Users\Humberto\Dropbox\Desenvolvimento\Sistemas\Conrad\Conrad\Conrad\bin\System.Web.Helpers.xml
 C:\Users\Humberto\Dropbox\Desenvolvimento\Sistemas\Conrad\Conrad\Conrad\bin\System.Web.Mvc.xml
-C:\Users\Humberto\Dropbox\Desenvolvimento\Sistemas\Conrad\Conrad\Conrad\obj\Debug\Conrad.csprojResolveAssemblyReference.cache
 C:\Users\Humberto\Dropbox\Desenvolvimento\Sistemas\Conrad\Conrad\Conrad\obj\Debug\Conrad.dll
 C:\Users\Humberto\Dropbox\Desenvolvimento\Sistemas\Conrad\Conrad\Conrad\obj\Debug\Conrad.pdb
-C:\Users\humberto.almeida\Documents\Visual Studio 2015\Projects\Conrad\Conrad\Conrad\obj\Debug\Conrad.csprojResolveAssemblyReference.cache
